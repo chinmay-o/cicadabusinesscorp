@@ -1,0 +1,30 @@
+body{
+
+  background-color: #010101;
+  font-family: 'Noto Sans', sans-serif;
+  color: #ebebe3;
+}
+
+.logo{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.logo img{
+
+  width: 500px;
+  filter: invert();
+}
+
+@media only screen and (max-width: 500px){
+
+  .logo img{
+
+    width: 200px;
+  }
+}
